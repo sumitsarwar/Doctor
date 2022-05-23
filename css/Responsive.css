@@ -107,7 +107,18 @@
 }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width:992px) and (max-width: 1199.98px) {...}
+@media (min-width:992px) and (max-width: 1199.98px) {
+    .top_part_left p {
+        font-size: 1rem;
+        text-align: center;
+        border-right: 3px solid red;
+    }
+    .top_part_right p {
+        font-size: 1rem;
+        text-align: center;
+        border-left: 3px solid red;
+    }
+}
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {...}
