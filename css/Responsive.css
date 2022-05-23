@@ -85,7 +85,26 @@
 
 
 /* Medium devices (tablests, 768px and up)*/
-@media (min-widht: 768px) and (max-width: 991.98px) {...}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .top_part_left p {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .top_part_right p {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .carousel-inner img {
+        height: 80vh;
+    }
+    .infocus_part_text p {
+        text-align: justify;
+    }
+    .service_part_middle a {
+        margin-bottom: 2rem;
+        display: block;
+    }
+}
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width:992px) and (max-width: 1199.98px) {...}
