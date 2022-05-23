@@ -16,15 +16,32 @@
         margin-bottom: 2rem;
         display: block;
     }
-    
+}
+
+@media (min-width:320px) and (max-width: 479.98px) {
+    .top_part_left p {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .top_part_right p {
+        text-align: center;
+    }
+    .carousel-inner img {
+        height: 80vh;
+    }
+    .infocus_part_text p {
+        text-align: justify;
+    }
+    .service_part_middle a {
+        margin-bottom: 2rem;
+        display: block;
+    }
 }
 
 
 
 
-
-@media (min-width:320px) and (max-width: 479.98px) {...}
-@media (min-width:480px) and (max-width: 575.98px) {...}
+@media (min-width:480px) and (max-width: 575.98px) {}
 
 
 /* Extra small device (portrait phones, less than 576) */
